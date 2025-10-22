@@ -1,4 +1,4 @@
 [tool.agent-starter-pack]
-name = "test-agent3"
+name = "test-agent4"
 [tool.agent-starter-pack.settings]
 deployment_targets = ["agent_engine","cloud_run"]
